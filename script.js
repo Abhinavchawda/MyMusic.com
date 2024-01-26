@@ -6,7 +6,7 @@ let songs = [];
 
 async function getSongs(folder) {
     currentFolder = folder;
-    let a = await fetch(`http://127.0.0.1:5500/Spotify%20project/${currentFolder}/`)
+    let a = await fetch(`http://127.0.0.1:5500/MyMusic.com/${currentFolder}/`)
 
     let response = await a.text();
 
